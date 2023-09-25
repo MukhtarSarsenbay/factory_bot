@@ -1,0 +1,10 @@
+POST http://localhost:8000/register/
+{
+    "username": "user1",
+    "password": "password123"
+}
+POST http://localhost:8000/send-message/
+{
+    "text": "Hello, bot!"
+}
+GET http://localhost:8000/messages/
